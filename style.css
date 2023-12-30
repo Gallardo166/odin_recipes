@@ -4,9 +4,19 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.main {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 16px 8px;
+    margin: 10px 100px;
+}
+
 .index {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: lightgrey;
+    color: white;
+    margin: 40px 70px;
+    padding: 20px;
+    text-align: center;
 }
 
 .yellow {
@@ -21,7 +31,37 @@ h1 {
     color:rgb(184, 165, 56);
 }
 
-ol {
-    background-color:darkslategray;
-    color:antiquewhite
+.img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.content {
+    padding: 3px 90px;
+}
+
+.back {
+    margin: 20px;
+    text-align: center;
+}
+
+a:link {
+    color:chocolate
+}
+
+a:visited {
+    color:chocolate;
+}
+hr {
+    width: 1300px
+}
+
+.menu {
+    margin: 5px auto;
+}
+
+a {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
